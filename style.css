@@ -1,4 +1,9 @@
-.cont div{
+#cont div{
     border: 1px solid black;
-    height: 10px;
+    height: 40px;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
